@@ -1,0 +1,71 @@
+# CREATE AN environment
+# =======================================
+# Create virtual environment 
+python3 -m venv my_env
+
+# Activate virtual environment
+source my_env/bin/activate 
+
+# Install packages to virtual environment
+pip install pandas
+pip install numpy
+pip install matplotlib
+
+# List packages installed in environment
+pip list 
+
+# Save installed packages to requirements file
+pip freeze > requirements.txt
+
+# Deactivate virtual environment 
+deactivate
+
+=======================================
+LAB 1 SETUP
+
+1. Type:
+source setup-env.sh
+To set up an empty environment.
+
+2. Type:
+pip help
+To see the documentation for pip.
+
+3. Type:
+pip help install
+To see the help for the pip install command.
+
+4. Install the requests package:
+pip install requests
+
+5. See the packages installed in your environment:
+pip list
+
+6. To see the available versions of the requests package:
+pip install requests==
+Note: this will give an error message, but in that message all the available versions are displayed.
+
+7. Choose an earlier version of requests and install that version:
+pip install requests==2.25.1
+
+8. Check the installed version:
+pip list
+
+9. Upgrade to the latest version:
+pip install requests --upgrade
+
+10. Check the installed version:
+pip list
+
+=======================================
+
+LAB 2 SETUP
+1. Type:
+pip freeze > requirements.txt
+To create a requirements file with the packages installed using pip.
+
+2. Type:
+cat requirements.txt
+To see the contents of the new requirements file.
+
+=======================================
