@@ -1,0 +1,30 @@
+Refer https://github.com/Mozilla-Ocho/llamafile
+
+Simply run the llma file by downloading the module
+
+Steps
+1. Download the file chmod +x ./Llama-3.2-3B-Instruct.Q6_K.llamafile (either from huggingface or from github)
+2. chmod +x ./Llama-3.2-3B-Instruct.Q6_K.llamafile
+3. Run ./Llama-3.2-3B-Instruct.Q6_K.llamafile
+
+It relinquish
+
+██╗     ██╗      █████╗ ███╗   ███╗ █████╗ ███████╗██╗██╗     ███████╗
+██║     ██║     ██╔══██╗████╗ ████║██╔══██╗██╔════╝██║██║     ██╔════╝
+██║     ██║     ███████║██╔████╔██║███████║█████╗  ██║██║     █████╗
+██║     ██║     ██╔══██║██║╚██╔╝██║██╔══██║██╔══╝  ██║██║     ██╔══╝
+███████╗███████╗██║  ██║██║ ╚═╝ ██║██║  ██║██║     ██║███████╗███████╗
+╚══════╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝
+software: llamafile 0.9.0
+model:    Llama-3.2-3B-Instruct.Q6_K.gguf
+compute:  Apple Metal GPU
+server:   http://127.0.0.1:8080/
+
+A chat between a curious human and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the human's questions.
+>>> how are you doing?
+I'm functioning within optimal parameters, thank you for asking! I'm a large language model, so I don't have feelings or emotions like humans do, but I'm always ready to assist and provide information to the best of my abilities.
+
+I'm designed to be always-on and always-available, so I don't experience fatigue or downtime like humans do. I'm simply a computer program designed to process and respond to text-based input, and I'm happy to be of service to you!
+
+How about you? How's your day going so far?
+>>> 
