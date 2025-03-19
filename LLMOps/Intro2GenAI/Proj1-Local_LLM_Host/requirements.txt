@@ -1,0 +1,12 @@
+openai
+python-dotenv
+fastapi
+uvicorn[standard]
+tiktoken
+qdrant-client
+sentence-transformers
+pandas
+pydantic
+
+
+
