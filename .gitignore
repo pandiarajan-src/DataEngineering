@@ -2,3 +2,4 @@
 .DS_Store
 __pycache__/
 
+LLMOps/Intro2GenAI/Proj1-Local_LLM_Host/.env
